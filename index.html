@@ -13,7 +13,11 @@
     <link rel="stylesheet" type="text/css" href="css/select2.css">
     <link rel="stylesheet" type="text/css" href="css/flat-ui-select2.css">
     <script type="text/javascript">
-      $(document).ready(function() { $("#custom-select").select2(); });
+      $(document).ready(function() { 
+        $("#custom-select").select2(); 
+        $( ".select2-container" ).append( "<span class=\"dropdown-caret caret \"></span>" );
+        $( ".select2-drop" ).append( "<span class=\"dropdown-caret caret \"></span>" );
+      });
     </script>
 </head>
 <body>

@@ -41,7 +41,7 @@
   background-color: #1abc9c !important;
   color: #fff !important;
 }
-.select2-drop {
+.select2-drop{
   margin-top: 10px;
   padding-top: 5px;
   background-color: #2f4154;
@@ -56,4 +56,31 @@
 .select2-results .select2-no-results, .select2-results .select2-searching, .select2-results .select2-selection-limit{
   background-color: transparent;
   color:#fff;
+}
+.select2-arrow{
+  visibility: hidden;
+}
+.select2-container .caret {
+  position: absolute;
+  right: 22px;
+  top: 50%;
+  margin-top: -3px;
+  border-width: 8px 6px;
+  border-bottom-color: #fff;
+  border-top-color: #fff;
+  border-style: solid;
+  border-bottom-style: none;
+}
+.select2-drop .caret{
+  position: absolute;
+  right: 19px;
+  top: -19px;
+  margin-top: 11px;
+  border-width: 8px 9px;
+  border-bottom-color: #2f4154;
+  border-top-color: #2f4154;
+  border-style: solid;
+  border-bottom-style: none;
+  -webkit-transform: rotate(180deg);
+  opacity: 1;
 }
