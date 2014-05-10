@@ -28,6 +28,12 @@
   border: none !important;
   box-shadow: none !important;
 }
+.select2-container.select2-container-disabled .select2-choice,
+.select2-container.select2-container-disabled .select2-choice:hover,
+.select2-container.select2-container-disabled .select2-choice:focus,
+.select2-container.select2-container-disabled .select2-choice:active{
+  background-color: #ccc;
+}
 .select2-result:hover,
 .select2-result:focus,
 .select2-result:active {
@@ -84,3 +90,4 @@
   -webkit-transform: rotate(180deg);
   opacity: 1;
 }
+.sle
